@@ -379,14 +379,6 @@ function Collision()
     end
 end
 
---function Visible()
---    while enable == true do
---        Citizen.Wait(0)
---        DisableAllControlActions(0)
---        Collision()
---    end
---end
-
 function Visible()
 	    while enable == true do
 	        Citizen.Wait(0)
@@ -399,6 +391,7 @@ function Visible()
 		DisableControlAction(0, 34, true)
 		DisableControlAction(0, 35, true)
 		DisableControlAction(0, 36, true)
+		DisableControlAction(0, 253, true)
 	    end
 	end
 
